@@ -59,6 +59,12 @@ body {
   background-color: var(--hover);
 }
 
+.sidebar-logo {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
 .avatar {
   width: 20px;
   height: 20px;

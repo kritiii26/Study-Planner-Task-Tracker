@@ -12,6 +12,7 @@ function App() {
     <div className={`app ${isDarkTheme ? 'dark' : 'light'}`}>
       <div className="sidebar">
         <div className="profile">
+          <img src="notion-logo.png" alt="Logo" className="sidebar-logo" />
           Your Workspace
         </div>
 
