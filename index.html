@@ -39,6 +39,12 @@
       font-size: 1.2rem;
     }
 
+    .brand-logo {
+      height: 32px;
+      width: auto;
+      object-fit: contain;
+    }
+
     .main-menu-links {
       display: flex;
       gap: 1.5rem;
@@ -78,30 +84,49 @@
 
     .hero-section {
       text-align: center;
-      padding: 4rem 2rem;
-      max-width: 800px;
+      padding: 6rem 2rem;
+      max-width: 1000px;
       margin: 0 auto;
-    }
-
-    .subtitle-tag {
-      color: var(--primary-accent);
-      font-size: 0.8rem;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 1rem;
+      position: relative;
     }
 
     .main-headline {
-      font-size: 3rem;
+      font-size: 4rem;
+      font-weight: 800;
       margin: 0 0 1.5rem 0;
+      letter-spacing: -0.02em;
     }
 
     .description-text {
       color: var(--secondary-text-color);
-      font-size: 1.2rem;
-      line-height: 1.5;
+      font-size: 1.25rem;
+      line-height: 1.6;
       margin-bottom: 3rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 4rem;
+    }
+
+    .hero-graphic-container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-graphic {
+      width: 100%;
+      height: auto;
+      display: block;
     }
 
     .features-container {
@@ -157,7 +182,7 @@
 
   <nav class="top-navigation" id="main-nav">
     <div class="brand-logo-container" id="logo-container">
-      <span class="logo-text">Notion</span>
+      <img src="notion-logo.png" alt="Notion Logo" class="brand-logo" />
     </div>
     
     <div class="main-menu-links" id="navigation-links">
@@ -176,11 +201,19 @@
 
   <main>
     <section class="hero-section" id="hero-banner">
-      <div class="subtitle-tag" id="hero-subtitle">WHY NOTION</div>
-      <h1 class="main-headline" id="hero-headline">Work smarter, not harder</h1>
+      <h1 class="main-headline" id="hero-headline">Meet the night shift.</h1>
       <p class="description-text" id="hero-description">
-        Everything your team needs to move fast — docs, projects, wikis, and now AI agents — in one connected workspace.
+        Notion Agents keep work moving 24/7. They capture knowledge, answer questions and push projects forward — all while you sleep.
       </p>
+      
+      <div class="hero-buttons">
+        <a href="notion.html" class="signup-button">Get Notion free</a>
+        <a href="#" class="login-link" style="padding: 0.5rem 1rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 0.25rem;">Request a demo</a>
+      </div>
+
+      <div class="hero-graphic-container">
+        <img src="hero-graphic.webp" alt="Notion Hero Graphic" class="hero-graphic" />
+      </div>
     </section>
 
     <section class="features-container" id="features-list">

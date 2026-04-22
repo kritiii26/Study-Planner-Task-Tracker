@@ -12,7 +12,6 @@ function App() {
     <div className={`app ${isDarkTheme ? 'dark' : 'light'}`}>
       <div className="sidebar">
         <div className="profile">
-          <div className="avatar">A</div>
           Your Workspace
         </div>
 
