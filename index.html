@@ -24,7 +24,7 @@
       color: var(--text-color);
     }
 
-    .top-navigation {
+    .topnav {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -32,47 +32,47 @@
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    .brand-logo-container {
+    .brandcontainer {
       display: flex;
       align-items: center;
       font-weight: bold;
       font-size: 1.2rem;
     }
 
-    .brand-logo {
+    .brandlogo {
       height: 32px;
       width: auto;
       object-fit: contain;
     }
 
-    .main-menu-links {
+    .menulinks {
       display: flex;
       gap: 1.5rem;
     }
 
-    .menu-item {
+    .menuitem {
       color: var(--secondary-text-color);
       text-decoration: none;
       font-size: 0.9rem;
     }
     
-    .menu-item:hover {
+    .menuitem:hover {
       color: var(--text-color);
     }
 
-    .user-actions {
+    .useractions {
       display: flex;
       align-items: center;
       gap: 1rem;
     }
 
-    .login-link {
+    .loginlink {
       color: var(--text-color);
       text-decoration: none;
       font-size: 0.9rem;
     }
 
-    .signup-button {
+    .signupbtn {
       background-color: var(--button-background);
       color: var(--button-text);
       padding: 0.5rem 1rem;
@@ -82,7 +82,7 @@
       font-size: 0.9rem;
     }
 
-    .hero-section {
+    .herosection {
       text-align: center;
       padding: 6rem 2rem;
       max-width: 1000px;
@@ -90,14 +90,14 @@
       position: relative;
     }
 
-    .main-headline {
+    .headline {
       font-size: 4rem;
       font-weight: 800;
       margin: 0 0 1.5rem 0;
       letter-spacing: -0.02em;
     }
 
-    .description-text {
+    .description {
       color: var(--secondary-text-color);
       font-size: 1.25rem;
       line-height: 1.6;
@@ -107,14 +107,14 @@
       margin-right: auto;
     }
 
-    .hero-buttons {
+    .herobtn {
       display: flex;
       justify-content: center;
       gap: 1rem;
       margin-bottom: 4rem;
     }
 
-    .features-container {
+    .featurecontainer {
       display: flex;
       justify-content: center;
       gap: 1.5rem;
@@ -123,7 +123,7 @@
       margin: 0 auto;
     }
 
-    .feature-card {
+    .featurecard {
       background-color: var(--card-background);
       border-radius: 0.75rem;
       padding: 2rem;
@@ -131,23 +131,23 @@
       text-align: left;
     }
 
-    .feature-icon {
+    .featureicon {
       font-size: 1.5rem;
       margin-bottom: 1rem;
     }
 
-    .feature-title {
+    .featuretitle {
       font-size: 1.2rem;
       margin: 0 0 1rem 0;
     }
 
-    .feature-description {
+    .featuredesc {
       color: var(--secondary-text-color);
       line-height: 1.5;
       font-size: 0.9rem;
     }
 
-    .call-to-action-section {
+    .ctasection {
       text-align: center;
       padding: 4rem 2rem;
       margin-top: 2rem;
@@ -157,7 +157,7 @@
       margin: 2rem auto 0 auto;
     }
 
-    .cta-headline {
+    .ctaheadline {
       font-size: 2.5rem;
       margin-bottom: 0;
     }
@@ -165,69 +165,69 @@
 </head>
 <body>
 
-  <nav class="top-navigation" id="main-nav">
-    <div class="brand-logo-container" id="logo-container">
-      <img src="notion-logo.png" alt="Notion Logo" class="brand-logo" />
+  <nav class="topnav" id="navbar">
+    <div class="brandcontainer" id="logowrap">
+      <img src="notion-logo.png" alt="Notion Logo" class="brandlogo" />
     </div>
     
-    <div class="main-menu-links" id="navigation-links">
-      <a href="#" class="menu-item">Product</a>
-      <a href="#" class="menu-item">AI</a>
-      <a href="#" class="menu-item">Solutions</a>
-      <a href="#" class="menu-item">Resources</a>
-      <a href="#" class="menu-item">Request a demo</a>
+    <div class="menulinks" id="navlinks">
+      <a href="#" class="menuitem">Product</a>
+      <a href="#" class="menuitem">AI</a>
+      <a href="#" class="menuitem">Solutions</a>
+      <a href="#" class="menuitem">Resources</a>
+      <a href="#" class="menuitem">Request a demo</a>
     </div>
 
-    <div class="user-actions" id="auth-actions">
-      <a href="#" class="login-link">Log in</a>
-      <a href="notion.html" class="signup-button">Get Notion free</a>
+    <div class="useractions" id="authwrap">
+      <a href="#" class="loginlink">Log in</a>
+      <a href="notion.html" class="signupbtn">Get Notion free</a>
     </div>
   </nav>
 
   <main>
-    <section class="hero-section" id="hero-banner">
-      <h1 class="main-headline" id="hero-headline">Meet the night shift.</h1>
-      <p class="description-text" id="hero-description">
+    <section class="herosection" id="herobanner">
+      <h1 class="headline" id="heroheading">Meet the night shift.</h1>
+      <p class="description" id="herodesc">
         Notion Agents keep work moving 24/7. They capture knowledge, answer questions and push projects forward — all while you sleep.
       </p>
       
-      <div class="hero-buttons">
-        <a href="notion.html" class="signup-button">Get Notion free</a>
-        <a href="#" class="login-link" style="padding: 0.5rem 1rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 0.25rem;">Request a demo</a>
+      <div class="herobtn">
+        <a href="notion.html" class="signupbtn">Get Notion free</a>
+        <a href="#" class="loginlink" style="padding: 0.5rem 1rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 0.25rem;">Request a demo</a>
       </div>
     </section>
 
-    <section class="features-container" id="features-list">
-      <div class="feature-card" id="feature-ai-agents">
-        <div class="feature-icon">🤖</div>
-        <h3 class="feature-title">AI Agents that work for you</h3>
-        <p class="feature-description">
+    <section class="featurecontainer" id="featurelist">
+      <div class="featurecard" id="featureai">
+        <div class="featureicon">🤖</div>
+        <h3 class="featuretitle">AI Agents that work for you</h3>
+        <p class="featuredesc">
           Notion agents handle repetitive work autonomously — routing tasks, writing status updates, answering team questions — so you can focus on what matters.
         </p>
       </div>
 
-      <div class="feature-card" id="feature-knowledge-hub">
-        <div class="feature-icon">📚</div>
-        <h3 class="feature-title">Your company's knowledge hub</h3>
-        <p class="feature-description">
+      <div class="featurecard" id="featurehub">
+        <div class="featureicon">📚</div>
+        <h3 class="featuretitle">Your company's knowledge hub</h3>
+        <p class="featuredesc">
           Capture everything in one place. From meeting notes to runbooks, Notion becomes the source of truth your whole team can search and trust.
         </p>
       </div>
 
-      <div class="feature-card" id="feature-projects">
-        <div class="feature-icon">📦</div>
-        <h3 class="feature-title">Projects without the overhead</h3>
-        <p class="feature-description">
+      <div class="featurecard" id="featureproj">
+        <div class="featureicon">📦</div>
+        <h3 class="featuretitle">Projects without the overhead</h3>
+        <p class="featuredesc">
           Plan sprints, track tasks, and ship faster. Kanban, timeline, table — choose the view that fits your workflow, no extra tools needed.
         </p>
       </div>
     </section>
 
-    <section class="call-to-action-section" id="bottom-cta">
-      <img src="notion-logo.png" alt="Notion Logo" class="brand-logo" style="margin-bottom: 1.5rem;" />
-      <h2 class="cta-headline">Start building with Notion today</h2>
-      <div class="hero-buttons" style="margin-top: 2rem;">
-        <a href="notion.html" class="signup-button">Get Notion free</a>
+    <section class="ctasection" id="bottomcta">
+      <img src="notion-logo.png" alt="Notion Logo" class="brandlogo" style="margin-bottom: 1.5rem;" />
+      <h2 class="ctaheadline">Start building with Notion today</h2>
+      <div class="herobtn" style="margin-top: 2rem;">
+        <a href="notion.html" class="signupbtn">Get Notion free</a>
       </div>
     </section>
   </main>
@@ -235,8 +235,8 @@
   <footer style="padding: 4rem 2rem; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 4rem;">
     <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 2rem;">
       <div>
-        <div class="brand-logo-container">
-          <img src="notion-logo.png" alt="Notion Logo" class="brand-logo" />
+        <div class="brandcontainer">
+          <img src="notion-logo.png" alt="Notion Logo" class="brandlogo" />
           <span style="margin-left: 0.5rem;">Notion</span>
         </div>
         <p style="color: var(--secondary-text-color); font-size: 0.8rem; margin-top: 1rem;">
@@ -245,27 +245,27 @@
       </div>
       <div>
         <h4 style="font-size: 0.9rem; margin-bottom: 1rem;">Product</h4>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">Wikis</a>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">Projects</a>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">Docs</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">Wikis</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">Projects</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">Docs</a>
       </div>
       <div>
         <h4 style="font-size: 0.9rem; margin-bottom: 1rem;">Solutions</h4>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">Enterprise</a>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">Small business</a>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">Personal</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">Enterprise</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">Small business</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">Personal</a>
       </div>
       <div>
         <h4 style="font-size: 0.9rem; margin-bottom: 1rem;">Download</h4>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">iOS & Android</a>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">Mac & Windows</a>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">Web Clipper</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">iOS & Android</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">Mac & Windows</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">Web Clipper</a>
       </div>
       <div>
         <h4 style="font-size: 0.9rem; margin-bottom: 1rem;">Resources</h4>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">Help center</a>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">Pricing</a>
-        <a href="#" class="menu-item" style="display: block; margin-bottom: 0.5rem;">Blog</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">Help center</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">Pricing</a>
+        <a href="#" class="menuitem" style="display: block; margin-bottom: 0.5rem;">Blog</a>
       </div>
     </div>
   </footer>
