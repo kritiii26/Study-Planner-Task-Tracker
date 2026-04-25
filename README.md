@@ -12,7 +12,6 @@ The goal of this project is to recreate the essential look and feel of Notion us
 
 - **High-Fidelity UI Recreation**: The layout, spacing, and typography have been closely matched to Notion's clean aesthetic.
 - **Dynamic Theme Toggling**: The dashboard features a seamless Dark/Light Mode switch. This is powered by React's `useState` hook and leverages CSS variables to instantly update the entire application's color scheme without reloading the page.
-- **Humanized Class Naming**: Instead of complex CSS nesting or cryptic abbreviations, the project uses straightforward, human-readable shorthand classes (like `app`, `sidebar`, `infobox`, `card`) making the codebase extremely approachable for beginners.
 - **Zero-Boilerplate Landing Page**: The `index.html` file runs entirely on its own with no build step required, demonstrating the power of pure structural HTML and CSS.
 
 ## 🛠 Tech Stack
